@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1015389504052",
+    "project_id": "grpalarm",
+    "storage_bucket": "grpalarm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015389504052:android:5b6f88770e9e7f48244061",
+        "android_client_info": {
+          "package_name": "com.example.grpalarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015389504052-1ar15f4d7udq5qqu7e20ekbbi7uc494m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grpalarm",
+            "certificate_hash": "1d2f8cc2d722d017a4dec004fa28cce7043b9d39"
+          }
+        },
+        {
+          "client_id": "1015389504052-9s7hr3f8900oanvvve7qcg315546ut4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWazlDJzuqEtSbBpsMFT1pYGnvMbTX0b0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015389504052-9s7hr3f8900oanvvve7qcg315546ut4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
