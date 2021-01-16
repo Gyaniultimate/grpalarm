@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
         fAuth = FirebaseAuth.getInstance();
 
@@ -73,6 +72,14 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
+
+    }
+
+    public void addgrp(View view) {
+
+        startActivity(new Intent(getApplicationContext(), makeup.class));
+
+
 
     }
 
