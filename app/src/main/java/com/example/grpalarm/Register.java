@@ -115,7 +115,7 @@ public class Register extends AppCompatActivity {
                             userID = fAuth.getCurrentUser().getUid();
 
                             Map<String, Object> user = new HashMap<>();
-                            user.put("fName", fullName);
+                            user.put("fullName", fullName);
                             user.put("email", email);
                             user.put("phone", phone);
                             database.getInstance().getReference().child("users").child(userID).updateChildren(user);
