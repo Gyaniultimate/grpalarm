@@ -99,7 +99,7 @@ public class makeup extends AppCompatActivity {
         final HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("groupId","" + g_timestamp);
         hashMap.put("groupTitle","" + groupTitle);
-        hashMap.put("groupId","" + groupDescription);
+        hashMap.put("groupDescription","" + groupDescription);
         hashMap.put("CreatedBy", "" + fAuth.getUid());
 
         //create group
