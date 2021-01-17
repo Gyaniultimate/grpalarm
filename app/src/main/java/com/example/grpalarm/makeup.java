@@ -94,7 +94,7 @@ public class makeup extends AppCompatActivity {
 
     }
 
-    private void createGroup(final String g_timestamp, String groupTitle, String groupDescription) {
+    private void createGroup(final String g_timestamp, final String groupTitle, String groupDescription) {
 
         final HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("groupId","" + g_timestamp);
@@ -120,6 +120,11 @@ public class makeup extends AppCompatActivity {
 
                     }
                 });
+                HashMap<String,Object> hashMap2 = new HashMap<>();
+                hashMap2.put("groupTitle","" + groupTitle);
+
+                DatabaseReference ref2 = FirebaseDatabase.getInstance().getReference("users");
+                ref2.child(fAuth.getUid()).child("Groups").child(g_timestamp).setValue(hashMap2);
 
             }
         })
